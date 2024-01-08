@@ -8,7 +8,7 @@ const User=require('./models/user.model')
 const app=express();
 app.use(
     cors({
-        origin:"http://localhost:5173",
+        origin:"*",
     })
 );
 
