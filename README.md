@@ -5,3 +5,4 @@ This template provides a minimal setup to get React working in Vite with HMR and
 Currently, two official plugins are available:
 
 ![Screenshot](./src/assets/Output.jpg)
+![MongoDB Connection](./src/assets/o1.jpg)
