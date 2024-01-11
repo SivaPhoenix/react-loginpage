@@ -15,7 +15,7 @@ function App() {
   //signUp
   const signUp=async(e)=>{
     e.preventDefault();
-    const res=await fetch("http://192.168.137.34:5000/api/register",
+    const res=await fetch("http://localhost:5000/api/register",
       {
         method:"POST",
         headers:{
@@ -47,7 +47,7 @@ function App() {
   //signIn
   const signIn=async(e)=>{
     e.preventDefault();
-    const res=await fetch("http://192.168.137.34:5000/api/login",
+    const res=await fetch("http://localhost:5000/api/login",
       {
         method:"POST",
         headers:{
